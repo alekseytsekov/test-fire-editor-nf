@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/ng2-semantic-ui/index.ts",
+    "node_modules/ng2-semantic-ui/**/*.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts",
+    "node_modules/ng2-semantic-ui/demo/*"
+  ]
+}
