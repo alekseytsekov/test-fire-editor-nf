@@ -20,7 +20,7 @@
   "dependencies": {
     "@aeternity/aepp-sdk": "^5.0.0",
     "@angular-devkit/build-angular": "^0.803.21",
-    "@angular/animations": "68.1.1",
+    "@angular/animations": "^8.1.1",
     "@angular/common": "^8.1.1",
     "@angular/compiler": "^8.1.1",
     "@angular/compiler-cli": "^8.1.1",
