@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "initpatch": "node patch.js",
-    "initlogmonitor": "custom-modules/install-modified-logmonitor.sh",
+    "initlogmonitor": ".\\custom-modules\\install-modified-logmonitor.sh",
     "initsophia": "custom-modules/sophia-workaround.sh",
     "old": "node patch.js && ./custom-modules/install-modified-logmonitor.sh && ./custom-modules/sophia-workaround.sh",
     "sophia": "/custom-modules/sophia-workaround.sh",
